@@ -19,6 +19,7 @@ The models are evaluated on two datasets: CelebA and Flowers102.
 - `ehpz8p_homework.ipynb`: Google Colab notebook to download the CelebA and Flowers102 dataset, and for preparing the datasets for training, validation, and testing.
   
 **Related works (papers, GitHub repositories, blog posts, etc)**:
+- https://huggingface.co/datasets/nielsr/CelebA-faces
 
 **How to run it (building and running the container, running your solution within the container)**:
 1. **Build the Docker container**:
