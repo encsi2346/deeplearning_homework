@@ -19,6 +19,11 @@ The models are evaluated on two datasets: CelebA and Flowers102.
 - `ehpz8p_homework.ipynb`: Google Colab notebook to download the CelebA and Flowers102 dataset, and for preparing the datasets for training, validation, and testing.
   
 **Related works (papers, GitHub repositories, blog posts, etc)**:
+- https://huggingface.co/blog/annotated-diffusion
+- https://github.com/huggingface/diffusers
+- https://keras.io/examples/generative/ddim/
+- https://arxiv.org/abs/2006.11239
+- https://arxiv.org/abs/2010.02502
 - https://huggingface.co/datasets/nielsr/CelebA-faces
 
 **How to run it (building and running the container, running your solution within the container)**:
