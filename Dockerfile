@@ -3,7 +3,7 @@ FROM python:3.9
 RUN apt-get update &&  \
 	apt install -y
 
-ENV HOME /c/users/Enci/Downloads/deeplearning_homework
+ENV HOME=/c/users/Enci/Downloads/deeplearning_homework
 WORKDIR $HOME/ehpz8p_diffusion_models_project
 ENV CSV=${CSV:-$HOME/ehpz8p_diffusion_models_project/data/data.csv}
 
