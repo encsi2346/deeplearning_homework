@@ -1,7 +1,7 @@
 # deeplearning_homework
 
 **Team name**: 
-Aninom team
+Anonim team
 
 **Team members' names and Neptun codes**:
 Szabó Enikő (EHPZ8P)
