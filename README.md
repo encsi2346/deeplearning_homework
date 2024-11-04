@@ -34,3 +34,24 @@ The models are evaluated on two datasets: CelebA and Flowers102.
 2. **Run the Docker container**:
     ```bash
     docker run -it -p 8888:8888 diffusion-models
+
+## How to Run the Pipeline
+
+To execute the pipeline, follow these steps:
+
+1. **Set Up the Environment**: Ensure you have all the required dependencies installed. You can set up a virtual environment and install the necessary packages as specified in the `requirements.txt` file.
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   pip install -r requirements.txt
+
+   python main.py
+
+##How to Train the Models
+
+     python train.py --config train_config.yaml
+
+##How to Evaluate the Models
+
+    python evaluate.py --model_path path/to/saved_model --config eval_config.yaml
