@@ -15,25 +15,38 @@ The models are evaluated on two datasets: CelebA and Flowers102.
 
 **Functions of the files in the repository**:
 - `requirements.txt`: Lists all dependencies.
-- `Dockerfile`: Docker configuration for setting up the environment.
+- `dockerfile`: Docker configuration for setting up the environment.
 - `ehpz8p_homework.ipynb`: Google Colab notebook to download the CelebA and Flowers102 dataset, and for preparing the datasets for training, validation, and testing.
+- `Mélytanulás_házi_feladat_ehpz8p.docx`: Documentation.
   
 **Related works (papers, GitHub repositories, blog posts, etc)**:
 - https://huggingface.co/blog/annotated-diffusion
 - https://github.com/huggingface/diffusers
 - https://keras.io/examples/generative/ddim/
-- https://arxiv.org/abs/2006.11239
-- https://arxiv.org/abs/2010.02502
-- https://huggingface.co/datasets/nielsr/CelebA-faces
+- https://keras.io/examples/generative/ddpm/
+- https://github.com/beresandras/clear-diffusion-keras
+- https://colab.research.google.com/github/keras-team/keras-io/blob/master/examples/generative/ipynb/ddpm.ipynb?fbclid=IwY2xjawHFSGRleHRuA2FlbQIxMAABHQvKxm5EE09B-QgmJLgXrVGkdawd6polbxVmr1bn25CTFPt71YYUyax9tw_aem_uD8GCmI3qpqbAy1CFthumg#scrollTo=V__Y-MaEWn_K
+- https://colab.research.google.com/github/keras-team/keras-io/blob/master/examples/generative/ipynb/ddim.ipynb#scrollTo=o_3dhnwzbCBn
+
 
 **How to run it (building and running the container, running your solution within the container)**:
-1. **Build the Docker container**:
+1. **Build the Docker container in a terminal**:
    ```bash
-   docker build -t diffusion-models .
+    docker build -t dockerfile .
 
 2. **Run the Docker container**:
     ```bash
-    docker run -it -p 8888:8888 diffusion-models
+    docker run --gpus all -p 8888:8888 dockerfile
+
+3. **Open a new browser window and enter the following url**:
+   ```bash
+   http://localhost:8888/
+
+4. **Click on the ehpz8p_homework**
+
+
+
+
 
 ## How to Run the Pipeline
 
