@@ -42,29 +42,4 @@ The models are evaluated on two datasets: CelebA and Flowers102.
    ```bash
    http://localhost:8888/
 
-4. **Click on the ehpz8p_homework**
-
-
-
-
-
-## How to Run the Pipeline
-
-To execute the pipeline, follow these steps:
-
-1. **Set Up the Environment**: Ensure you have all the required dependencies installed. You can set up a virtual environment and install the necessary packages as specified in the `requirements.txt` file.
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   pip install -r requirements.txt
-
-   python main.py
-
-##How to Train the Models
-
-     python train.py --config train_config.yaml
-
-##How to Evaluate the Models
-
-    python evaluate.py --model_path path/to/saved_model --config eval_config.yaml
+4. **Click on the ehpz8p_homework, and once the notebook is open you can run the cells by clicking on the run button**
